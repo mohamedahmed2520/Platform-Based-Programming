@@ -1,0 +1,104 @@
+/* ===== BASIC PAGE STYLE ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #2a2a72, #009ffd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ===== CARD ===== */
+.card {
+  background: #ffffff;
+  padding: 30px;
+  width: 380px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  color: #2a2a72;
+}
+
+/* ===== FORM INPUTS ===== */
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.2s;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+  border-color: #009ffd;
+  box-shadow: 0 0 6px rgba(0, 159, 253, 0.3);
+}
+
+/* ===== BUTTON ===== */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #009ffd;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button:hover {
+  background: #0073cc;
+}
+
+/* ===== USERS TABLE PAGE ===== */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-row {
+  background: #2a2a72;
+  color: white;
+}
+
+tr:hover {
+  background: #f1f1f1;
+}
+
+/* Back button */
+.back-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #2a2a72;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.25s;
+}
+
+.back-btn:hover {
+  background: #1f1f5a;
+}
+
+/* ===== ANIMATION ===== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
