@@ -1,0 +1,35 @@
+{
+<<<<<<< HEAD
+  "name": "next14-rbac-full",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^17.2.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^8.0.0",
+    "next": "14.0.0",
+    "postcss": "^8.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.4.0"
+  }
+=======
+  "name": "platform-based-programming",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+>>>>>>> c90beef82175e6911dfba720748ba97bb6113158
+}
