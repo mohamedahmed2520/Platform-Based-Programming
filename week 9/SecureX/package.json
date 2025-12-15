@@ -1,0 +1,12 @@
+
+{
+  "name": "validation-ui-project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": { "start": "node app.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "joi": "^17.11.0"
+  }
+}
